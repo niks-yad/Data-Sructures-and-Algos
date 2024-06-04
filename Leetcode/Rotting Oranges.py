@@ -20,7 +20,6 @@ class Solution:
                     bfsQ.append([r,c])
 
         while bfsQ:
-            print(bfsQ)
             for i in range(len(bfsQ)):
                 
                 r = bfsQ[0][0]
