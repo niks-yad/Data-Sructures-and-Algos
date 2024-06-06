@@ -1,8 +1,6 @@
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
+
         def swap(a,b):
             temp = nums[a]
             nums[a] = nums[b]
