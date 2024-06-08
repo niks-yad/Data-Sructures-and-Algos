@@ -16,6 +16,7 @@ class Solution:
                 swap(r,i)
                 r -= 1
                 i -= 1
+                
             i += 1
 
         return nums
